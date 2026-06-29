@@ -1,0 +1,18 @@
+.img{
+  height:300px;
+  width:500px;
+  text-align: center;
+  margin:100px;
+}
+body{
+ background-color:lightblue;
+ font-style: italic;
+}
+.button{
+  background-color:pink;
+  cursor:pointer;
+  border:none;
+  font-style: italic;
+  height:100px;
+  width:100px;
+}
