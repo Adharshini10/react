@@ -8,11 +8,7 @@ body{
  background-color:lightblue;
  font-style: italic;
 }
-.button{
-  background-color:pink;
-  cursor:pointer;
-  border:none;
-  font-style: italic;
-  height:100px;
-  width:100px;
+.employee{
+border:2px solid black;
+border-radius:10px;
 }
