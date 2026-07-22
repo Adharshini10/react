@@ -1,4 +1,4 @@
-.img{
+/*.img{
   height:300px;
   width:500px;
   text-align: center;
@@ -8,6 +8,14 @@ body{
  background-color:lightblue;
  font-style: italic;
 }
+.button{
+  background-color:pink;
+  cursor:pointer;
+  border:none;
+  font-style: italic;
+  height:100px;
+  width:100px;
+}*/
 .employee{
 border:2px solid black;
 border-radius:10px;
@@ -27,3 +35,34 @@ border-radius:10px;
   text-align:center;
   font-size:40px;
   color:white;}
+.counter{
+ font-size: 50px;
+ text-align: center;
+}
+.increment{
+  text-align: center;
+  margin: 0px 5px;
+  width: 100px;
+  height: 20px;
+  font-weight: bold;
+  background-color: green;
+}
+.decrement{
+  text-align: center;
+  margin: 0px 5px;
+  width: 100px;
+  height: 20px;
+  font-weight: bold;
+  background-color: red;
+}
+.reset{
+  text-align: center;
+  margin: 0px 5px;
+  width: 100px;
+  height: 20px;
+  font-weight: bold;
+  background-color:cornflowerblue;
+}
+.counterclass{
+  text-align: center;
+}
