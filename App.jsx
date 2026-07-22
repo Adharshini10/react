@@ -7,6 +7,7 @@ import List from './list.jsx';
 import Button from './Button.jsx';
 import Eventhandler from './Eventhandler.jsx';
 import Usestate from './Usestate.jsx';
+import Counter from './Counter.jsx';
 function App() {
   return (
     <>
@@ -27,6 +28,8 @@ function App() {
       <Eventhandler />
       <hr />
       <Usestate/>
+      <hr/>
+      <Counter/>
     </>
   );
 }
