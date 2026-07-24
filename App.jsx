@@ -8,6 +8,7 @@ import Button from './Button.jsx';
 import Eventhandler from './Eventhandler.jsx';
 import Usestate from './Usestate.jsx';
 import Counter from './Counter.jsx';
+import Onchange from './Onchange.jsx';
 function App() {
   return (
     <>
@@ -30,6 +31,8 @@ function App() {
       <Usestate/>
       <hr/>
       <Counter/>
+      <hr/>
+      <Onchange/>
     </>
   );
 }
