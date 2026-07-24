@@ -9,6 +9,7 @@ import Eventhandler from './Eventhandler.jsx';
 import Usestate from './Usestate.jsx';
 import Counter from './Counter.jsx';
 import Onchange from './Onchange.jsx';
+import Colorpicker from './Colorpicker.jsx';
 function App() {
   return (
     <>
@@ -33,6 +34,8 @@ function App() {
       <Counter/>
       <hr/>
       <Onchange/>
+      <hr/>
+      <Colorpicker/>
     </>
   );
 }
