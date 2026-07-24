@@ -65,4 +65,15 @@ border-radius:10px;
 }
 .counterclass{
   text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.color-div{
+  text-align: center;
+}
+.color-h1{
+  margin: 0;
+}
+.color-para1{
+  color: aliceblue;
 }
