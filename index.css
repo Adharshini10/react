@@ -77,3 +77,18 @@ border-radius:10px;
 .color-para1{
   color: aliceblue;
 }
+.student-input{
+  width: 150px;
+  height:30px;
+  background-color:antiquewhite;
+  text-align: center;
+  border-radius: 5px;
+ 
+}
+.student-div{
+  text-align: center;
+}
+.student-but{
+background-color: aquamarine;
+border-radius: 10px;
+}
