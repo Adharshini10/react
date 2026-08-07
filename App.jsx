@@ -13,24 +13,27 @@ import Colorpicker from './Colorpicker.jsx';
 import Listupdate from './Listupdate.jsx';
 import Studentdetails from './Studentdetails.jsx';
 import Todo from './Todo.jsx';
+import Calculator from './Calculator.jsx';
 function App() {
   return (
     <>
-      <Card />
+      <Card/>
       <hr />
 
       <Employee name="hello" batch={100} Address="hyd" isemp={false} />
       <Employee name="hiee" batch={200} Address="japan" isemp={true} />
       <Employee name=" " batch={0} Address=" " isemp={false} />
 
-      <Usergreeting isloggedin={false} name="pooja" />
+      <Usergreeting isloggedin={true} name="pooja" />
       <hr />
 
-      <Button />
+      <Button/>
+
+
       <br />
       <hr />
 
-      <Eventhandler />
+       {/* Eventhandler */}
       <hr />
       <Usestate/>
       <hr/>
@@ -45,6 +48,8 @@ function App() {
       <Studentdetails/>
       <hr/>
       <Todo/>
+      <hr/>
+      <Calculator/>
     </>
   );
 }
